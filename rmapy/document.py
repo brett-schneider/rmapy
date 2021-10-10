@@ -159,6 +159,10 @@ class ZipDocument(object):
         # "textScale": 1,
         # "transform": {}}
         self.content = {
+            "documentMetadata": {
+                "authors": [],
+                "title": ""
+            },
             "extraMetadata": {
                 # "LastBrushColor": "Black",
                 # "LastBrushThicknessScale": "2",
